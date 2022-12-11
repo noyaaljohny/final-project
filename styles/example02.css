@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .logo img {
+    width: 180px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .topnav a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+      }
+
+      .paragraph {
+        position: relative;
+        text-align: center;
+      }
+
+      #one {
+        position: relative;
+        text-align: center;
+        left: 230px;
+      }
+}
+
+.welcome {
+    position: relative;
+    text-align: center;
+    color: #37db0e;
+    font-size: 100px;
+    top: 120px;
+    font-family: 'Calligraffitti', cursive;
+    text-shadow: -15px 5px 20px #ced0d3;
+    text-align: center;
+    color: #101d14;
+    text-shadow: 5px 5px 0px #04AA6D, 
+    10px 10px 0px #1f1e1a, 
+    15px 15px 0px  #04AA6D, 
+    20px 20px 0px #1a1417, 
+    25px 25px 0px #04AA6D, 
+    30px 30px 0px #0e1114;
+}
+
+.paragraph {
+    color: #04AA6D;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: medium;
+    top: 100px;
+}
+
+#one{
+    margin-bottom: 30px;
+    border: 1px dotted #04AA6D;
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px;
+    width: 1000px;
+    height: 150px;
+    float:none;
+    align-items: center;
+    position: relative;
+    left: 230px;
+}
